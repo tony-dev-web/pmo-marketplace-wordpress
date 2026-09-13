@@ -29,4 +29,7 @@ Licence GPL-2.0-or-later.
 - [PrestaShop](https://github.com/tony-dev-web/pmo-marketplace-prestashop)
 - [WooCommerce](https://github.com/tony-dev-web/pmo-marketplace-woocommerce)
 - [Shopify](https://github.com/tony-dev-web/pmo-marketplace-shopify)
-- Toutes les extensions et l'API : https://piecemotooccasion.eu/extensions/ — documentation de l'API : https://piecemotooccasion.eu/extensions/api
+- [Drupal](https://github.com/tony-dev-web/pmo-marketplace-drupal)
+- [Magento](https://github.com/tony-dev-web/pmo-marketplace-magento)
+- [API](https://github.com/tony-dev-web/pmo-marketplace-api)
+- Toutes les extensions : https://piecemotooccasion.eu/extensions/
