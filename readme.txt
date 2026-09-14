@@ -1,10 +1,10 @@
 === PieceMotoOccasion Marketplace ===
-Contributors: pmo
+Contributors: piecemomotooccasion
 Tags: marketplace, pmo, motorcycle parts, pieces moto, casse moto
 Requires at least: 6.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Plugin URI: https://piecemotooccasion.eu/extensions/woocommerce
@@ -35,7 +35,7 @@ This plugin communicates with the PieceMotoOccasion API (https://piecemotooccasi
 == Installation ==
 1. Plugins > Add New > Upload Plugin, then activate.
 2. Open your shop menu > PieceMotoOccasion: paste the API token generated in your PieceMotoOccasion seller area (https://piecemotooccasion.eu/a2/vendeurs/boutique) and choose the PieceMotoOccasion category.
-3. Copy the notification URL shown by the plugin (.../wp-json/pmo/v1/commande) into your PieceMotoOccasion seller area.
+3. Copy the notification URL shown by the plugin (.../wp-json/piecemoto/v1/commande) into your PieceMotoOccasion seller area.
 4. Click "Send the whole catalogue". PieceMotoOccasion reviews new products before they go live.
 
 == Frequently Asked Questions ==
@@ -43,8 +43,13 @@ This plugin communicates with the PieceMotoOccasion API (https://piecemotooccasi
 No. PieceMotoOccasion receives your tax-included price and publishes it as is; the PieceMotoOccasion commission is deducted from your payout.
 
 = Do PieceMotoOccasion orders appear in my shop statistics? =
-Yes, they are regular orders created via "pmo", with the PieceMotoOccasion order number in the note.
+Yes, they are regular orders created via "piecemotooccasion", with the PieceMotoOccasion order number in the note.
 
 == Changelog ==
+
+= 1.0.1 =
+* Prefixes renamed from pmo_ to piecemoto_ as required by the plugin review. Settings are re-entered after the update.
+* Notification route moved to /wp-json/piecemoto/v1/commande.
+* Capability check added on the settings screen.
 = 1.0.0 =
 * First release.
