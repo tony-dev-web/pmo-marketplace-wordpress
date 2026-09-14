@@ -15,7 +15,7 @@ Vendez vos pièces moto sur la marketplace française [PieceMotoOccasion](https:
 
 1. Si le site n'a pas WooCommerce : Extensions › Ajouter, chercher « WooCommerce », installer et activer. Saisir les pièces avec un SKU (la référence).<br>2. Extensions › Ajouter › Téléverser le zip, puis activer.
 3. WooCommerce › PieceMotoOccasion : jeton API (espace vendeur) et catégorie par défaut ; la première catégorie WooCommerce du produit est envoyée quand elle existe.
-4. Copier l'URL de notification affichée (`.../wp-json/pmo/v1/commande`) dans votre espace vendeur.
+4. Copier l'URL de notification affichée (`.../wp-json/piecemoto/v1/commande`) dans votre espace vendeur.
 5. « Envoyer tout le catalogue » : chaque nouvelle pièce est vérifiée avant sa mise en ligne.
 
 ## API
